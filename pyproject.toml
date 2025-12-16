@@ -1,0 +1,19 @@
+[project]
+name = "ask-whatsapp-bot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiosqlite>=0.21.0",
+    "alembic>=1.17.2",
+    "asyncpg>=0.30.0",
+    "fastapi>=0.121.2",
+    "greenlet>=3.2.4",
+    "httpx>=0.28.1",
+    "httpx-sse>=0.4.3",
+    "python-dotenv>=1.2.1",
+    "pywa[fastapi]>=3.5.2",
+    "sqlalchemy>=2.0.44",
+    "uvicorn>=0.38.0",
+]
